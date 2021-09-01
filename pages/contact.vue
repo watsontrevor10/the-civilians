@@ -7,6 +7,8 @@
       <b-row>
         <b-col>
           <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+            <!-- add netlify form name -->
+            <input type="hidden" name="form-name" value="name_of_my_form" />
             <b-form-group id="name-group" label="Name" label-for="client-name">
               <b-form-input
                 id="client-name"
