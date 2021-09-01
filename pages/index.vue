@@ -2,9 +2,11 @@
   <div class="container">
     <div>
       <Logo />
-      <h2 class="subtitle">
-        Music of the people, by the people, for the people
-      </h2>
+      <div>
+        <h2 class="subtitle">
+          Music of the people, by the people, for the people
+        </h2>
+      </div>
     </div>
   </div>
 </template>
@@ -23,6 +25,14 @@ export default {};
   text-align: center;
 }
 
+.centered {
+  margin: 1.5em auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -38,7 +48,7 @@ export default {};
   font-size: 42px;
   color: #526488;
   word-spacing: 5px;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 
 .links {
