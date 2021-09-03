@@ -15,7 +15,8 @@
           style="max-width: 30em"
         >
           <b-card-text>
-            Bio about Morgan and the things that he does
+            Engineer by day, Swiss-army-knife multi-instrumentalist by night.
+            Anything the song demands, Morgan plays, and does it well.
           </b-card-text>
         </b-card>
       </b-col>
@@ -29,7 +30,9 @@
           style="max-width: 30em"
         >
           <b-card-text>
-            Bio about Tyler and the things that he does
+            A music teacher with a passion for an obscure band called The
+            Beatles. But we don't hold that against him, because this man can
+            shred on the guitar.
           </b-card-text>
         </b-card>
       </b-col>
@@ -46,7 +49,9 @@
           style="max-width: 30em"
         >
           <b-card-text>
-            Bio about Zach and the things that he does
+            Those who can't do teach, and those who can't teach teach gym. While
+            he does teach gym, those words don't apply to his guitar playing, or
+            vocal prowess.
           </b-card-text>
         </b-card>
       </b-col>
@@ -60,7 +65,9 @@
           style="max-width: 30em"
         >
           <b-card-text>
-            Bio about Neil and the things that he does
+            Neil "Taxman" Baxter is (you guessed it) a taxman by day, and a
+            solid drummer by night. Besides keeping the rhythm, he also watches
+            the books.
           </b-card-text>
         </b-card>
       </b-col>
@@ -77,7 +84,8 @@
           style="max-width: 30em"
         >
           <b-card-text>
-            Bio about Trevor and the things that he does
+            Bassist. Yep, that's what he does. He also builds our websites. If
+            he wasn't so good at both, we probably wouldn't keep him around.
           </b-card-text>
         </b-card>
       </b-col>
