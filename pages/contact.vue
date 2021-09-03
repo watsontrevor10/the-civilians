@@ -5,7 +5,17 @@
         <h1 class="subtitle">Book the Band</h1>
       </b-row>
       <b-row>
-        <b-col>
+        <b-col cols="6">
+          <h4>Tell us about your gig</h4>
+          <br />
+          <h5>Types of gigs we do well</h5>
+          <br />
+          <p>Wedding</p>
+          <p>Birthday</p>
+          <p>Corporate Event</p>
+          <p>Dance</p>
+        </b-col>
+        <b-col cols="5">
           <b-form @submit="onSubmit" @reset="onReset" v-if="show">
             <!-- add netlify form name -->
             <input type="hidden" name="form-name" value="name_of_my_form" />
