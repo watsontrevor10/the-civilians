@@ -6,14 +6,19 @@
       </b-row>
       <b-row>
         <b-col cols="6">
-          <h4>Tell us about your gig</h4>
-          <br />
-          <h5>Types of gigs we do well</h5>
-          <br />
-          <p>Wedding</p>
-          <p>Birthday</p>
-          <p>Corporate Event</p>
-          <p>Dance</p>
+          <div class="centered">
+            <b-img-lazy
+              src="https://res.cloudinary.com/dx4uolokd/image/upload/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
+              fluid
+              rounded
+              alt="The civilians rocking out at a wedding party"
+            ></b-img-lazy>
+          </div>
+          <h3>Weddings</h3>
+          <h3>Birthdays</h3>
+          <h3>Corporate Events</h3>
+          <h3>Dances</h3>
+          <h3>And More . . .</h3>
         </b-col>
         <b-col cols="5">
           <b-form @submit="onSubmit" @reset="onReset" v-if="show">

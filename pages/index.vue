@@ -1,11 +1,14 @@
 <template>
-  <div class="container">
+  <div class="centered extra-padding">
     <div>
       <Logo />
       <div>
         <h2 class="subtitle">
           Music of the people, by the people, for the people
         </h2>
+        <h4>
+          covering hits from every decade of rock 'n roll
+        </h4>
       </div>
     </div>
   </div>
@@ -53,5 +56,9 @@ export default {};
 
 .links {
   padding-top: 15px;
+}
+
+.extra-padding {
+  padding-top: 2em;
 }
 </style>
