@@ -59,6 +59,6 @@ export default {};
 }
 
 .extra-padding {
-  padding-top: 2em;
+  padding: 2em;
 }
 </style>
