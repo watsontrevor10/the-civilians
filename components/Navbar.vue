@@ -1,5 +1,5 @@
 <template>
-  <b-navbar sticky="true" variant="dark" type="dark">
+  <b-navbar sticky="true" variant="dark" type="dark" class="nav-logo">
     <b-navbar-brand to="/">The Civilians</b-navbar-brand>
     <b-navbar-nav align="center">
       <b-nav-item to="/about">About</b-nav-item>
@@ -8,3 +8,9 @@
     </b-navbar-nav>
   </b-navbar>
 </template>
+
+<style>
+.nav-logo {
+  font-family: "CallOfOpsDuty";
+}
+</style>

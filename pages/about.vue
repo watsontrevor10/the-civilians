@@ -14,7 +14,11 @@
             :img-alt="artist.imgAlt"
             img-top
             style="max-width: 30em"
-          ></b-card>
+          >
+            <card-text>
+              {{ artist.cardText }}
+            </card-text>
+          </b-card>
         </b-col>
       </div>
     </b-row>
