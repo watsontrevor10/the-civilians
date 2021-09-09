@@ -1,8 +1,10 @@
 <template>
   <b-container fluid="sm">
-    <div class="centered">
+    <b-row class="centered">
       <h1 class="subtitle">Music</h1>
-    </div>
+    </b-row>
+
+    <hr />
 
     <b-row>
       <b-col class="video-container">

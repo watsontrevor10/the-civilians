@@ -1,12 +1,11 @@
 <template>
   <b-navbar sticky="true" variant="dark" type="dark" class="nav-logo">
     <b-navbar-brand to="/">
-      <img
-        src="https://res.cloudinary.com/dx4uolokd/image/upload/v1631159597/Civilians/civilians-fav_n5iz9c.jpg"
-        alt="The Civilians logo"
-        class="logo"
-      />
-      The Civilians
+      <div>
+        <h1 class="header">
+          The Civilians
+        </h1>
+      </div>
     </b-navbar-brand>
     <b-navbar-nav align="center">
       <b-nav-item to="/about">About</b-nav-item>
@@ -23,5 +22,9 @@
 }
 .nav-logo {
   font-family: "CallOfOpsDuty";
+}
+.header {
+  color: #b31942;
+  margin: 1px auto;
 }
 </style>

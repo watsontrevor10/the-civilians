@@ -1,8 +1,11 @@
 <template>
-  <b-container fluid>
+  <b-container fluid="sm">
     <b-row class="centered">
       <h1 class="subtitle">Book the Band</h1>
     </b-row>
+
+    <hr />
+
     <b-row>
       <b-col cols="6">
         <div class="centered">

@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <div>
-        <h2 class="subtitle">
+        <h2 class="subtitle extra-padding">
           Music of the people, by the people, for the people
         </h2>
         <h4>
@@ -29,7 +29,7 @@ export default {};
 }
 
 .centered {
-  margin: 1.2em auto;
+  margin: 1.5em auto;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -42,16 +42,15 @@ export default {};
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #0a3161;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #0a3161;
   word-spacing: 5px;
-  padding: 15px;
 }
 
 .links {
@@ -59,6 +58,6 @@ export default {};
 }
 
 .extra-padding {
-  padding: 2em;
+  padding: 0.5em;
 }
 </style>
