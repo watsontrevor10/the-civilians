@@ -27,6 +27,12 @@ h2,
 h3,
 h4 {
   font-family: "CallOfOpsDuty";
+  color: #526488;
+}
+
+hr {
+  border-width: 4px;
+  background-color: #526488;
 }
 
 *,
