@@ -13,6 +13,7 @@
 
 html {
   font-family: "CallOfOpsDuty", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #ffffff;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -22,6 +23,7 @@ html {
   box-sizing: border-box;
 }
 
+a,
 h1,
 h2,
 h3,

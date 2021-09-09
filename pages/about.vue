@@ -9,21 +9,32 @@
     <b-row class="band-bio">
       <b-col>
         <p>
-          The Civilians is comprised of a current and soon-to-be alumni of the
-          Utah National Guard Band called Article 15.
+          The Civilians are in a literal sense weekend warriors. They each serve
+          in the Utah Army National Guard as part of the 23rd Army Band, and
+          take the skills that they have learned as Army musicians to the
+          civilian side.
         </p>
         <p>
-          As members of the National Guard these 5 musicians have been playing
-          together for over a decade, and performed extensively throughout the
-          state, and abroad supporting our troops and local communities of Utah.
+          As members of the National Guard these five musicians have been
+          playing together for over a decade, and have performed extensively
+          throughout the state and abroad supporting our troops and local
+          communities of Utah.
         </p>
         <p>
-          As some of the band members' time in the military is drawing to a
-          close, they knew that they wanted to continue performing and spreading
-          their love of music and freedom to everyone around them. Thus The
-          Civilians was born, a group of patriotic rock stars ready to take your
-          next event to the next level.
+          They are well-versed in multiple genres; but focus heavily on popular,
+          danceable tunes that appeal to a wide range of audiences.
         </p>
+        <p>
+          Whether as soldiers or Civilians, they want to continue performing and
+          spreading their love of music and freedom to everyone around them.
+          Thus The Civilians was born, a group of patriotic rock stars ready to
+          take your event to the next level.
+        </p>
+        <b-button variant="outline-info" class="centered">
+          <a href="/contact">
+            Book the Band
+          </a>
+        </b-button>
       </b-col>
     </b-row>
 
