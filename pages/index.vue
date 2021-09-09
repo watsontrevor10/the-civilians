@@ -29,7 +29,7 @@ export default {};
 }
 
 .centered {
-  margin: 1.5em auto;
+  margin: 1.2em auto;
   display: flex;
   justify-content: center;
   text-align: center;
