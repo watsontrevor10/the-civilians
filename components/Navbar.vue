@@ -1,5 +1,11 @@
 <template>
-  <b-navbar sticky="true" variant="dark" type="dark" class="nav-logo">
+  <b-navbar
+    sticky="true"
+    variant="dark"
+    type="dark"
+    class="nav-logo"
+    toggleable="lg"
+  >
     <b-navbar-brand to="/">
       <div>
         <h1 class="header">
@@ -17,7 +23,7 @@
 
 <style>
 .logo {
-  max-width: 40px;
+  max-width: 35px;
   margin-right: 0.5em;
 }
 .nav-logo {

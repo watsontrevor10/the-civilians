@@ -32,6 +32,10 @@ h4 {
   color: #0a3161;
 }
 
+a:hover {
+  color: #465f7a;
+}
+
 hr {
   border-width: 4px;
   background-color: #0a3161;

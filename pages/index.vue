@@ -1,17 +1,25 @@
 <template>
-  <div class="centered extra-padding">
-    <div>
-      <Logo />
-      <div>
-        <h2 class="subtitle extra-padding">
-          Music of the people, by the people, for the people
-        </h2>
+  <b-container fluid>
+    <b-row class="centered">
+      <b-col>
+        <Logo />
+      </b-col>
+    </b-row>
+    <b-row class="centered extra-padding">
+      <b-col>
+        <h2>Music of the people, by the people, for the people</h2>
+        <hr />
         <h4>
           covering hits from every decade of rock 'n roll
         </h4>
-      </div>
-    </div>
-  </div>
+      </b-col>
+    </b-row>
+    <b-row class="centered">
+      <b-button variant="outline-secondary">
+        <a href="/about">Meet The Band</a>
+      </b-button>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

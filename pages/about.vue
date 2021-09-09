@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid="sm">
+  <b-container fluid>
     <b-row class="centered">
       <h1 class="subtitle">About The Band</h1>
     </b-row>
@@ -30,7 +30,7 @@
           Thus The Civilians was born, a group of patriotic rock stars ready to
           take your event to the next level.
         </p>
-        <b-button variant="outline-info" class="centered">
+        <b-button variant="outline-secondary" class="centered">
           <a href="/contact">
             Book the Band
           </a>

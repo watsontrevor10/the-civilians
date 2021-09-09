@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid="sm">
+  <b-container fluid>
     <b-row class="centered">
       <h1 class="subtitle">Music</h1>
     </b-row>
