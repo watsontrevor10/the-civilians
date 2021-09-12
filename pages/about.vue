@@ -100,7 +100,7 @@ export default {
           imgAlt:
             "Zach Putnam playing guitar and singing in what looks like a painful face",
           cardText:
-            "Those who can't do teach, and those who can't teach teach gym. While he does teach gym, those words don't apply to his guitar playing, or vocal prowess."
+            "Those who can't do, teach; and those who can't teach, teach gym. While he does teach gym, those words don't apply to his guitar playing, or vocal prowess."
         },
         {
           title: "Neil Baxter",
@@ -120,7 +120,7 @@ export default {
           imgAlt:
             "Trevor Watson playing bass and singing in a very normal and bass-like manner",
           cardText:
-            "Bassist. Yep, that's what he does. He also builds our websites. If he wasn't so good at both, we probably wouldn't keep him around."
+            "Bassist. Yep, that's what he does. He also builds our websites. He’s pretty useful to have around, so we let him stay."
         }
       ]
     };
