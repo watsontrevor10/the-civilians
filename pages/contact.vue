@@ -45,6 +45,7 @@
             >
             </b-form-input>
           </b-form-group>
+
           <b-form-group
             id="email-group"
             label="Email Address"
@@ -52,7 +53,7 @@
           >
             <b-form-input
               id="email-address"
-              name="name"
+              name="email"
               v-model="form.email"
               type="email"
               placeholder="Email Address"
@@ -60,6 +61,7 @@
             >
             </b-form-input>
           </b-form-group>
+
           <b-form-group id="phone-group" label="Phone Number" label-for="phone">
             <b-form-input
               id="phone"
@@ -71,27 +73,7 @@
             >
             </b-form-input>
           </b-form-group>
-          <b-form-group
-            id="date-group"
-            label="Date of Your Event"
-            label-for="gigDate"
-          >
-            <b-form-datepicker
-              id="gigDate"
-              name="gigDate"
-              v-model="form.gigDate"
-              required
-            >
-            </b-form-datepicker>
 
-            <b-form-timepicker
-              id="gigTime"
-              name="gigTime"
-              v-model="form.gigTime"
-              required
-            >
-            </b-form-timepicker>
-          </b-form-group>
           <b-form-group
             id="request-group"
             label="Details of the Gig"
@@ -101,7 +83,7 @@
               id="request"
               name="request"
               v-model="form.request"
-              placeholder="Type of venue, music preferences, vibe you're going for, etc."
+              placeholder="When and where, type of venue, music preferences, vibe you're going for, etc."
               required
             >
             </b-form-textarea>
