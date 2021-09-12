@@ -25,9 +25,17 @@
         </div>
       </b-col>
       <b-col cols="5">
-        <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+        <b-form
+          @submit.prevent="onSubmit"
+          @reset="onReset"
+          v-if="show"
+          name="civilians-form"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
           <!-- add netlify form name -->
-          <input type="hidden" name="form-name" value="name_of_my_form" />
+          <input type="hidden" name="civilians-form" value="civilians-form" />
           <b-form-group id="name-group" label="Name" label-for="client-name">
             <b-form-input
               id="client-name"
@@ -96,6 +104,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   data() {
     return {
@@ -111,9 +121,36 @@ export default {
     };
   },
   methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join("&");
+    },
     onSubmit(event) {
       event.preventDefault();
-      alert(JSON.stringify(this.form));
+      const axiosConfig = {
+        header: { "Content-Type": "application/x-www-form-urlencoded" }
+      };
+      axios.post(
+        "/about",
+        this.encode({
+          "form-name": "ask-question",
+          ...this.form
+        }),
+        axiosConfig
+      );
+      this.form.email = "";
+      this.form.name = "";
+      this.form.phone = "";
+      this.form.gigDate = "";
+      this.form.gigTime = "";
+      this.form.request = "";
+      this.show = false;
+      this.$nextTick(() => {
+        this.show = true;
+      });
     },
     onReset(event) {
       event.preventDefault();
