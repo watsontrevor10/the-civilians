@@ -14,7 +14,12 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Rock band gigging throughout Utah, playing hits from every decade of rock 'n roll"
+      }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/civ-logo.png" }]
   },
