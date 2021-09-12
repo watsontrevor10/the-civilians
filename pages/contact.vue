@@ -26,7 +26,6 @@
       </b-col>
       <b-col cols="5">
         <b-form
-          @submit="onSubmit"
           @reset="onReset"
           v-if="show"
           name="contact-form"
@@ -39,6 +38,7 @@
           <b-form-group id="name-group" label="Name" label-for="client-name">
             <b-form-input
               id="client-name"
+              name="name"
               v-model="form.name"
               placeholder="Enter Name"
               required
@@ -52,6 +52,7 @@
           >
             <b-form-input
               id="email-address"
+              name="name"
               v-model="form.email"
               type="email"
               placeholder="Email Address"
@@ -62,6 +63,7 @@
           <b-form-group id="phone-group" label="Phone Number" label-for="phone">
             <b-form-input
               id="phone"
+              name="phone"
               v-model="form.phone"
               type="phone"
               placeholder="Phone Number"
@@ -74,10 +76,20 @@
             label="Date of Your Event"
             label-for="gigDate"
           >
-            <b-form-datepicker id="gigDate" v-model="form.gigDate" required>
+            <b-form-datepicker
+              id="gigDate"
+              name="gigDate"
+              v-model="form.gigDate"
+              required
+            >
             </b-form-datepicker>
 
-            <b-form-timepicker id="gigTime" v-model="form.gigTime" required>
+            <b-form-timepicker
+              id="gigTime"
+              name="gigTime"
+              v-model="form.gigTime"
+              required
+            >
             </b-form-timepicker>
           </b-form-group>
           <b-form-group
@@ -87,8 +99,8 @@
           >
             <b-form-textarea
               id="request"
+              name="request"
               v-model="form.request"
-              type="text"
               placeholder="Type of venue, music preferences, vibe you're going for, etc."
               required
             >
@@ -119,18 +131,6 @@ export default {
     };
   },
   methods: {
-    onSubmit(event) {
-      this.form.email = "";
-      this.form.name = "";
-      this.form.phone = "";
-      this.form.gigDate = "";
-      this.form.gigTime = "";
-      this.form.request = "";
-      this.show = false;
-      this.$nextTick(() => {
-        this.show = true;
-      });
-    },
     onReset(event) {
       event.preventDefault();
       // Reset our form values
