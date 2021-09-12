@@ -31,7 +31,6 @@
           v-if="show"
           name="contact-form"
           method="post"
-          netlify
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
