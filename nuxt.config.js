@@ -38,5 +38,21 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
+
+  // Router config
+  router: {
+    middleware: ["fathom"]
+  },
+
+  // Script tags
+  script: [
+    // Fathom Analytics
+    {
+      // Use your Fathom custom domain if you have one
+      src: "https://cdn.usefathom.com/script.js",
+      "data-site": "Your-Site-ID-Goes-Here",
+      defer: true
+    }
+  ]
 };
