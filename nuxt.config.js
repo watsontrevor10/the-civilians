@@ -21,7 +21,21 @@ export default {
           "Rock band gigging throughout Utah, playing hits from every decade of rock 'n roll"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/civ-logo.png" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/civ-logo.png" }],
+    // Script tags
+    script: [
+      // Fathom Analytics
+      {
+        // Use your Fathom custom domain if you have one
+        src: "https://cdn.usefathom.com/script.js",
+        "data-site": "HZDZBXMX",
+        defer: true
+      }
+    ],
+    // Router config
+    router: {
+      middleware: ["fathom"]
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -43,21 +57,5 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
-
-  // Router config
-  router: {
-    middleware: ["fathom"]
-  },
-
-  // Script tags
-  script: [
-    // Fathom Analytics
-    {
-      // Use your Fathom custom domain if you have one
-      src: "https://cdn.usefathom.com/script.js",
-      "data-site": "HZDZBXMX",
-      defer: true
-    }
-  ]
+  build: {}
 };
