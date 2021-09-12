@@ -56,7 +56,7 @@ export default {
     {
       // Use your Fathom custom domain if you have one
       src: "https://cdn.usefathom.com/script.js",
-      "data-site": "Your-Site-ID-Goes-Here",
+      "data-site": "HZDZBXMX",
       defer: true
     }
   ]
