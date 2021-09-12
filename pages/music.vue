@@ -7,7 +7,8 @@
     <hr />
 
     <b-row>
-      <b-col class="video-container">
+      <h3 class="centered">Coming Soon. . .</h3>
+      <!-- <b-col class="video-container">
         <div
           v-for="video in videos"
           :key="video.name"
@@ -34,7 +35,10 @@
           class="video"
         >
         </b-embed>
-      </b-col>
+      </b-col> -->
+    </b-row>
+    <b-row>
+      <h4 class="centered">Like, really soon, we promise.</h4>
     </b-row>
   </b-container>
 </template>
