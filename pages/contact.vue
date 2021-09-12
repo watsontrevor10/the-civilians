@@ -35,7 +35,7 @@
           data-netlify-honeypot="bot-field"
         >
           <!-- add netlify form name -->
-          <input type="hidden" name="civilians-form" value="civilians-form" />
+          <input type="hidden" name="form-name" value="civilians-form" />
           <b-form-group id="name-group" label="Name" label-for="client-name">
             <b-form-input
               id="client-name"
@@ -121,26 +121,7 @@ export default {
     };
   },
   methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-        )
-        .join("&");
-    },
     onSubmit(event) {
-      event.preventDefault();
-      const axiosConfig = {
-        header: { "Content-Type": "application/x-www-form-urlencoded" }
-      };
-      axios.post(
-        "/about",
-        this.encode({
-          "form-name": "ask-question",
-          ...this.form
-        }),
-        axiosConfig
-      );
       this.form.email = "";
       this.form.name = "";
       this.form.phone = "";
