@@ -26,16 +26,17 @@
       </b-col>
       <b-col cols="5">
         <b-form
-          @submit.prevent="onSubmit"
+          @submit="onSubmit"
           @reset="onReset"
           v-if="show"
-          name="civilians-form"
+          name="contact-form"
           method="post"
+          netlify
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
           <!-- add netlify form name -->
-          <input type="hidden" name="form-name" value="civilians-form" />
+          <input type="hidden" name="form-name" value="contact-form" />
           <b-form-group id="name-group" label="Name" label-for="client-name">
             <b-form-input
               id="client-name"
@@ -104,8 +105,6 @@
 </template>
 
 <script>
-import axios from "axios";
-
 export default {
   data() {
     return {
