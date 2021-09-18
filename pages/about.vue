@@ -124,6 +124,19 @@ export default {
         }
       ]
     };
+  },
+  head() {
+    return {
+      title: "About The Civilians Band",
+      meta: [
+        {
+          hid: "About The Civilians Band",
+          name: "About The Civilians Band",
+          content:
+            "About the Civilians Band. Music of the people, by the people, for the people. We are a rock band."
+        }
+      ]
+    };
   }
 };
 </script>

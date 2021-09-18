@@ -112,6 +112,19 @@ export default {
       show: true
     };
   },
+  head() {
+    return {
+      title: "The Civilians - Contact",
+      meta: [
+        {
+          hid: "The Civilians Band contact page",
+          name: "The Civilians Band contact page",
+          content:
+            "The Civilians Band contact page. Music of the people, by the people, for the people."
+        }
+      ]
+    };
+  },
   methods: {
     onReset(event) {
       event.preventDefault();

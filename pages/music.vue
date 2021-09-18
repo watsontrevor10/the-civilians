@@ -70,6 +70,19 @@ export default {
       ],
       selectedVideo: "https://www.youtube.com/embed/lNz9gDH2-j8"
     };
+  },
+  head() {
+    return {
+      title: "The Civilians - Music",
+      meta: [
+        {
+          hid: "The Civilians Band music page",
+          name: "The Civilians Band music page",
+          content:
+            "The Civilians Band music page. Music of the people, by the people, for the people."
+        }
+      ]
+    };
   }
 };
 </script>

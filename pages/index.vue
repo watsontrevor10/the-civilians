@@ -23,7 +23,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: "The Civilians Band",
+      meta: [
+        {
+          hid: "The Civilians Home Page",
+          name: "The Civilians Home Page",
+          content:
+            "The Civilians rock band home page. Music of the people, by the people, for the people."
+        }
+      ]
+    };
+  }
+};
 </script>
 
 <style>
