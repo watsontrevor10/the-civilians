@@ -86,7 +86,7 @@ export default {
           title: "Tyler Putnam",
           subTitle: "Guitar, Vocals",
           imgSrc:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1630554626/Civilians/clark.wedding-2506_sdyrtf.jpg",
+            "https://res.cloudinary.com/dx4uolokd/image/upload/v1632179606/Civilians/clark.wedding-2506_msofzt.jpg",
           imgAlt:
             "Tyler Putnam playing guitar and singing in what looks like a painful face",
           cardText:
@@ -96,7 +96,7 @@ export default {
           title: "Zach Putnam",
           subTitle: "Guitar, Vocals",
           imgSrc:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/v1630554629/Civilians/clark.wedding-2541_ilaugt.jpg",
+            "https://res.cloudinary.com/dx4uolokd/image/upload/v1632179605/Civilians/clark.wedding-2541_bklmhy.jpg",
           imgAlt:
             "Zach Putnam playing guitar and singing in what looks like a painful face",
           cardText:
