@@ -120,7 +120,7 @@ export default {
           hid: "The Civilians Band contact page",
           name: "The Civilians Band contact page",
           content:
-            "The Civilians Band contact page. Music of the people, by the people, for the people."
+            "Contact The Civilians Band for your next event. Music of the people, by the people, for the people for your next event. Contact us for corporate events, weddings, parties and other events."
         }
       ]
     };

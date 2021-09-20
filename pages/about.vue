@@ -133,7 +133,7 @@ export default {
           hid: "About The Civilians Band",
           name: "About The Civilians Band",
           content:
-            "About the Civilians Band. Music of the people, by the people, for the people. We are a rock band."
+            "The Civilians Band is a group of Army Musicians performing out of uniform. They play music from every decade of rock 'n roll for all types of events."
         }
       ]
     };

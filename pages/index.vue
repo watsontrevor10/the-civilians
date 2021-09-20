@@ -32,7 +32,7 @@ export default {
           hid: "The Civilians Home Page",
           name: "The Civilians Home Page",
           content:
-            "The Civilians rock band home page. Music of the people, by the people, for the people."
+            "The Civilians Rock band, a patriotic cover band from Utah. Playing corporate events, weddings, parties and other events."
         }
       ]
     };

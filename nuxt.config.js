@@ -15,10 +15,10 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        hid: "The Civilians Band",
-        name: "The Civilians Band",
+        hid: "The Civilians Band - Utah Cover Band",
+        name: "The Civilians Band - Utah Cover Band",
         content:
-          "The Civilians Rock band gigging throughout Utah, playing hits from every decade of rock 'n roll"
+          "The Civilians Band is a Utah cover band playing hits from every decade of rock 'n roll. Weddings, corporate events, parties, and other events."
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/civ-logo.png" }],
