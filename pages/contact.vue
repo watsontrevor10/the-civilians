@@ -6,25 +6,19 @@
 
     <hr />
 
-    <b-row>
+    <b-row class="centered">
+      <div>
+        <b-img-lazy
+          src="https://res.cloudinary.com/dx4uolokd/image/upload/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
+          fluid
+          rounded
+          alt="The civilians rocking out at a wedding party"
+        ></b-img-lazy>
+      </div>
+    </b-row>
+
+    <b-row class="extra-padding">
       <b-col cols="6">
-        <div class="centered">
-          <b-img-lazy
-            src="https://res.cloudinary.com/dx4uolokd/image/upload/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
-            fluid
-            rounded
-            alt="The civilians rocking out at a wedding party"
-          ></b-img-lazy>
-        </div>
-        <div class="center-text">
-          <h3>Corporate Events</h3>
-          <h3>Weddings</h3>
-          <h3>Birthdays</h3>
-          <h3>Dances</h3>
-          <h3>And More . . .</h3>
-        </div>
-      </b-col>
-      <b-col cols="5">
         <b-form
           @reset="onReset"
           v-if="show"
@@ -89,9 +83,29 @@
             </b-form-textarea>
           </b-form-group>
 
-          <b-button type="submit" variant="success">Submit</b-button>
-          <b-button type="reset" variant="dark">Reset</b-button>
+          <b-button type="submit" variant="success" size="sm">Submit</b-button>
+          <b-button type="reset" variant="dark" size="sm">Reset</b-button>
         </b-form>
+      </b-col>
+      <b-col cols="6" class="center-text">
+        <h4>Corporate Events</h4>
+        <h4>Weddings</h4>
+        <h4>Birthdays</h4>
+        <h4>Dances</h4>
+        <h4>And More . . .</h4>
+        <hr />
+        <div>
+          <p>
+            From Classic Rock, Country, Modern Pop to Irish Pub Rock we
+            specialize in playing many genres and making every event a party
+          </p>
+          <p>
+            From <strong> Johnny Cash </strong> to
+            <strong> Taylor Swift </strong>, <strong>Stevie Wonder</strong>,
+            <strong>Nirvana</strong>, <strong>The Beatles</strong>,
+            <strong>Led Zeppelin</strong>, and many more.
+          </p>
+        </div>
       </b-col>
     </b-row>
   </b-container>
