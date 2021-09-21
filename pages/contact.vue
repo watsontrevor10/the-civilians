@@ -6,17 +6,6 @@
 
     <hr />
 
-    <b-row class="centered">
-      <div>
-        <b-img-lazy
-          src="https://res.cloudinary.com/dx4uolokd/image/upload/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
-          fluid
-          rounded
-          alt="The civilians rocking out at a wedding party"
-        ></b-img-lazy>
-      </div>
-    </b-row>
-
     <b-row class="extra-padding">
       <b-col cols="6">
         <b-form
@@ -88,11 +77,17 @@
         </b-form>
       </b-col>
       <b-col cols="6" class="center-text">
-        <h4>Corporate Events</h4>
-        <h4>Weddings</h4>
-        <h4>Birthdays</h4>
-        <h4>Dances</h4>
-        <h4>And More . . .</h4>
+        <div>
+          <h4>Corporate Events, weddings, birthday, dances, and more . . .</h4>
+        </div>
+        <div>
+          <b-img-lazy
+            src="https://res.cloudinary.com/dx4uolokd/image/upload/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
+            fluid-grow
+            rounded
+            alt="The civilians rocking out at a wedding party"
+          ></b-img-lazy>
+        </div>
         <hr />
         <div>
           <p>
