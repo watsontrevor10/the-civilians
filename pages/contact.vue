@@ -78,7 +78,7 @@
       </b-col>
       <b-col cols="6" class="center-text">
         <div>
-          <h4>Corporate Events, weddings, birthday, dances, and more . . .</h4>
+          <h4>Corporate Events, weddings, birthdays, dances, and more . . .</h4>
         </div>
         <div>
           <b-img-lazy
