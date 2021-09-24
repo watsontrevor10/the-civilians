@@ -151,10 +151,10 @@
             specialize in playing many genres and making every event a party
           </p>
           <p>
-            From <strong> Johnny Cash </strong> to
-            <strong> Taylor Swift </strong>, <strong>Stevie Wonder</strong>,
-            <strong>Nirvana</strong>, <strong>The Beatles</strong>,
-            <strong>Led Zeppelin</strong>, and many more.
+            From <strong>Johnny Cash</strong> to <strong>Taylor Swift </strong>,
+            <strong>Stevie Wonder</strong>, <strong>Nirvana</strong>,
+            <strong>The Beatles</strong>, <strong>Led Zeppelin</strong>, and
+            many more.
           </p>
         </div>
       </b-col>

@@ -9,26 +9,24 @@
     <b-row class="band-bio">
       <b-col>
         <p>
-          The Civilians are in a literal sense weekend warriors. They each serve
-          in the Utah Army National Guard as part of the 23rd Army Band, and
-          take the skills that they have learned as Army musicians to the
-          civilian side.
+          The Civilians are, in a literal sense, weekend warriors. They each
+          serve as musicians in the U.S. Army. As Army musicians these five have
+          been performing together for over a decade, and have performed
+          extensively throughout the state and abroad supporting our troops and
+          local communities of Utah.
         </p>
         <p>
-          As members of the National Guard these five musicians have been
-          playing together for over a decade, and have performed extensively
-          throughout the state and abroad supporting our troops and local
-          communities of Utah.
-        </p>
-        <p>
-          They are well-versed in multiple genres; but focus heavily on popular,
-          danceable tunes that appeal to a wide range of audiences.
+          As The Civilians, they are well-versed in multiple genres; but focus
+          heavily on popular, danceable tunes that appeal to a wide range of
+          audiences. They bring that decade of performing experience to the
+          Civilian side to create amazing experiences for audiences, and for any
+          event.
         </p>
         <p>
           Whether as soldiers or Civilians, they want to continue performing and
           spreading their love of music and freedom to everyone around them.
-          Thus The Civilians was born, a group of patriotic rock stars ready to
-          take your event to the next level.
+          They are a group of patriotic rock stars, ready to turn any event into
+          a party, and take that party to the next level.
         </p>
         <b-button variant="outline-secondary" class="centered">
           <a href="/contact">
