@@ -2,17 +2,19 @@
   <b-container fluid>
     <b-row class="centered">
       <b-col>
+        <h2>Music of the people, by the people, for the people</h2>
+        <hr />
+      </b-col>
+    </b-row>
+    <b-row class="centered">
+      <b-col>
         <Logo />
       </b-col>
     </b-row>
-    <b-row class="centered extra-padding">
-      <b-col>
-        <h2>Music of the people, by the people, for the people</h2>
-        <hr />
-        <h4>
-          covering hits from every decade of rock 'n roll
-        </h4>
-      </b-col>
+    <b-row class="centered">
+      <h4>
+        covering hits from every decade of rock 'n roll
+      </h4>
     </b-row>
     <b-row class="centered">
       <b-button variant="outline-secondary">

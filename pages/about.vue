@@ -125,7 +125,7 @@ export default {
   },
   head() {
     return {
-      title: "About The Civilians Band",
+      title: "About",
       meta: [
         {
           hid: "About The Civilians Band",

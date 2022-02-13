@@ -5,7 +5,7 @@
       v-model="slide"
       controls
       indicators
-      :interval="6000"
+      :interval="8000"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >

@@ -151,7 +151,7 @@
             specialize in playing many genres and making every event a party
           </p>
           <p>
-            From <strong>Johnny Cash</strong> to <strong>Taylor Swift </strong>,
+            <strong>Johnny Cash</strong>, <strong>Taylor Swift </strong>,
             <strong>Stevie Wonder</strong>, <strong>Nirvana</strong>,
             <strong>The Beatles</strong>, <strong>Led Zeppelin</strong>, and
             many more.
@@ -179,7 +179,7 @@ export default {
   },
   head() {
     return {
-      title: "The Civilians - Contact",
+      title: "Contact",
       meta: [
         {
           hid: "The Civilians Band contact page",
