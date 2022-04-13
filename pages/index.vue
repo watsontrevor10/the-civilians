@@ -3,6 +3,7 @@
     <b-row class="centered">
       <b-col>
         <h2>Music of the people, by the people, for the people</h2>
+        <h4>Utah cover band covering hits from every decade of rock 'n roll</h4>
         <hr />
       </b-col>
     </b-row>
@@ -10,11 +11,6 @@
       <b-col>
         <Logo />
       </b-col>
-    </b-row>
-    <b-row class="centered">
-      <h4>
-        covering hits from every decade of rock 'n roll
-      </h4>
     </b-row>
     <b-row class="centered">
       <b-button variant="outline-secondary">
@@ -28,17 +24,17 @@
 export default {
   head() {
     return {
-      title: "The Civilians Band",
+      title: 'The Civilians Band',
       meta: [
         {
-          hid: "The Civilians Home Page",
-          name: "The Civilians Home Page",
+          hid: 'The Civilians Home Page',
+          name: 'The Civilians Home Page',
           content:
-            "The Civilians Rock band, a patriotic cover band from Utah. Playing corporate events, weddings, parties and other events."
-        }
-      ]
+            'The Civilians Rock band, a patriotic cover band from Utah. Playing corporate events, weddings, parties and other events.',
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -53,7 +49,7 @@ export default {
 }
 
 .centered {
-  margin: 1.5em auto;
+  margin: 1em auto;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -61,8 +57,8 @@ export default {
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
