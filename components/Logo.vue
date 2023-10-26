@@ -2,6 +2,7 @@
   <div>
     <b-carousel
       id="main-carousel"
+      class="carousel"
       v-model="slide"
       controls
       indicators
@@ -17,8 +18,8 @@
 </template>
 
 <style>
-.NuxtLogo {
-  animation: 1s appear;
+.carousel {
+  max-width: 1080px;
   margin: auto;
 }
 
@@ -39,22 +40,22 @@ export default {
         {
           number: 1,
           url:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1630554743/Civilians/Civilians_yvnx4x.jpg"
+            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,q_auto:eco,w_1000/v1630554743/Civilians/Civilians_yvnx4x.png"
         },
         {
           number: 2,
           url:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
+            "https://res.cloudinary.com/dx4uolokd/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1630554638/Civilians/clark.wedding-2477_ax3vjn.png"
         },
         {
           number: 3,
           url:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1630554636/Civilians/clark.wedding-3764_xwcnkp.jpg"
+            "https://res.cloudinary.com/dx4uolokd/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1630554636/Civilians/clark.wedding-3764_xwcnkp.png"
         },
         {
           number: 4,
           url:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1630554632/Civilians/clark.wedding-2064_sf6nra.jpg"
+            "https://res.cloudinary.com/dx4uolokd/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1630554632/Civilians/clark.wedding-2064_sf6nra.png"
         }
       ]
     };

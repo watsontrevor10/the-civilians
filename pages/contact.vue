@@ -134,7 +134,7 @@
       </b-col>
       <b-col cols="6" class="center-text">
         <div>
-          <h4>Corporate Events, weddings, birthdays, dances, and more . . .</h4>
+          <h4>Corporate Events, weddings, birthdays, dances, and more</h4>
         </div>
         <div>
           <b-img-lazy
@@ -147,11 +147,11 @@
         <hr />
         <div>
           <p>
-            From Classic Rock, Country, Modern Pop to Irish Pub Rock we
+            From Classic Rock, Country, Modern Pop to Irish Pub Rock The Civilians
             specialize in playing many genres and making every event a party
           </p>
           <p>
-            <strong>Johnny Cash</strong>, <strong>Taylor Swift </strong>,
+            <strong>Johnny Cash</strong>, <strong>Taylor Swift</strong>,
             <strong>Stevie Wonder</strong>, <strong>Nirvana</strong>,
             <strong>The Beatles</strong>, <strong>Led Zeppelin</strong>, and
             many more.

@@ -26,7 +26,6 @@ export default {
     script: [
       // Fathom Analytics
       {
-        // Use your Fathom custom domain if you have one
         src: "https://cdn.usefathom.com/script.js",
         "data-site": "HZDZBXMX",
         defer: true

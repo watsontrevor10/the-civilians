@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <Nuxt />
+    <Nuxt class="main-window" />
     <Footer />
   </div>
 </template>
@@ -24,6 +24,11 @@ html {
   box-sizing: border-box;
 }
 
+.main-window {
+  margin: auto;
+  max-width: 1600px;
+}
+
 a,
 h1,
 h2,
@@ -31,6 +36,7 @@ h3,
 h4 {
   font-family: "CallOfOpsDuty";
   color: #0a3161;
+  padding: .5em;
 }
 
 a:hover {
