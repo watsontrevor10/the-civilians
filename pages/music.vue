@@ -44,6 +44,14 @@ export default {
     return {
       videos: [
         {
+          name: "Seven Nation Army - Line in the Studio",
+          alt:
+            "YouTube video of The Civilians playing Seven Nation Army in the studio",
+          src: "https://www.youtube.com/embed/MCLjcr8DLxc?si=e4UjulL4wtTh6ARn",
+          thumbnail: "https://img.youtube.com/vi/MCLjcr8DLxc/0.jpg"
+        },
+
+        {
           name: "Play That Funky Music - Live At Ridgeline",
           alt:
             "YouTube video of The Civilians playing Play That Funky Music live at Ridgeline High School",
@@ -66,7 +74,7 @@ export default {
         }
       ],
       selectedVideo:
-        "https://www.youtube.com/embed/EXjZtF1rwqk?si=l6YSzQqLHKIArCiG"
+        "https://www.youtube.com/embed/MCLjcr8DLxc?si=e4UjulL4wtTh6ARn"
     };
   },
   head() {
