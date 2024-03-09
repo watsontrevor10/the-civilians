@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="top-margin">
+  <b-container fluid class="top-margin centered">
     <div>
       <p>{{ "@Copyright The Civilians Band " + new Date().getFullYear() }}</p>
     </div>
@@ -8,6 +8,6 @@
 
 <style>
 .top-margin {
-  padding-top: 5em;
+  padding-top: 10em;
 }
 </style>

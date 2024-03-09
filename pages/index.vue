@@ -97,6 +97,10 @@ export default {
   padding: 0.5em;
 }
 
+.extra-margin-top {
+  margin-top: 2em;
+}
+
 .accent {
   color: #b31942;
 }

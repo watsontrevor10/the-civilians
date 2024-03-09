@@ -33,6 +33,9 @@
         </div>
       </b-col>
     </b-row>
+    <b-row>
+      <Book-button />
+    </b-row>
   </b-container>
 </template>
 
@@ -44,7 +47,7 @@ export default {
     return {
       videos: [
         {
-          name: "Seven Nation Army - Line in the Studio",
+          name: "Seven Nation Army - Live in the Studio",
           alt:
             "YouTube video of The Civilians playing Seven Nation Army in the studio",
           src: "https://www.youtube.com/embed/MCLjcr8DLxc?si=e4UjulL4wtTh6ARn",
@@ -64,13 +67,6 @@ export default {
             "YouTube video of The Civilians playing I Feel Good live at Ridgeline High School",
           src: "https://www.youtube.com/embed/xuXysCQEmH8?si=dUNV-yWTmnm2gF1V",
           thumbnail: "https://img.youtube.com/vi/xuXysCQEmH8/0.jpg"
-        },
-        {
-          name: "Play That Funky Music - Live at The Birthday Party",
-          meta:
-            "youTube Video of The Civilians playing Play That Funky Music live at a birthday party",
-          src: "https://www.youtube.com/embed/0MF0ZK_D7zk?si=J9RPjaB0E1WP3LLv",
-          thumbnail: "https://img.youtube.com/vi/0MF0ZK_D7zk/0.jpg"
         }
       ],
       selectedVideo:

@@ -28,11 +28,7 @@
           They are a group of patriotic rock stars, ready to turn any event into
           a party, and take that party to the next level.
         </p>
-        <b-button variant="outline-secondary" class="centered">
-          <a href="/contact">
-            Book the Band
-          </a>
-        </b-button>
+        <Book-button />
       </b-col>
     </b-row>
 
