@@ -138,7 +138,7 @@
         </div>
         <div>
           <b-img-lazy
-            src="https://res.cloudinary.com/dx4uolokd/image/upload/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
+            src="https://res.cloudinary.com/dx4uolokd/image/upload/f_auto/q_auto:eco,f_auto/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
             fluid-grow
             rounded
             alt="The civilians rocking out at a wedding party"
@@ -147,8 +147,9 @@
         <hr />
         <div>
           <p>
-            From Classic Rock, Country, Modern Pop to Irish Pub Rock The Civilians
-            specialize in playing many genres and making every event a party
+            From Classic Rock, Country, Modern Pop to Irish Pub Rock The
+            Civilians specialize in playing many genres and making every event a
+            party
           </p>
           <p>
             <strong>Johnny Cash</strong>, <strong>Taylor Swift</strong>,

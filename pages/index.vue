@@ -2,23 +2,44 @@
   <b-container fluid>
     <div class="extra-padding">
       <b-img
-        src="../assets/the-civilians-banner.png"
+        src="https://res.cloudinary.com/dx4uolokd/image/upload/f_auto/q_auto/Civilians/the-civilians-banner_mykwyv.png"
         alt="The Civilians - Music of the people, by the people, for the people"
         fluid
       ></b-img>
     </div>
 
-    <b-row class="centered">
-      <b-col>
-        <Logo />
-      </b-col>
-    </b-row>
     <hr />
-    <b-row class="centered">
+    <b-row style="justify-content: center;" class="extra-margin-top">
+      <b-card
+        title="The Civilians Band"
+        bg-variant="light"
+        border-variant="secondary"
+        sub-title="Rock/pop/country wedding and party band"
+        img-right
+        img-width="500"
+        img-src="https://res.cloudinary.com/dx4uolokd/image/upload/q_auto:eco/v1630554638/Civilians/clark.wedding-2477_ax3vjn.webp"
+      >
+        <hr />
+        <b-card-text>
+          With over a decade of music performance experience as Military
+          musicians
+        </b-card-text>
+        <b-card-text>
+          They play rock, pop, and country hits from every decade of Rock 'n
+          Roll.
+        </b-card-text>
+        <b-card-text
+          >The Civilians is the band to take your event and turn it into a
+          rockin' party!</b-card-text
+        >
+      </b-card>
+    </b-row>
+    <b-row class="centered extra-margin-top extra-margin-bottom">
       <b-button variant="outline-secondary">
         <a href="/about">Meet The Band</a>
       </b-button>
     </b-row>
+    <hr />
   </b-container>
 </template>
 
@@ -94,11 +115,15 @@ export default {
 }
 
 .extra-padding {
-  padding: 0.5em;
+  padding: 1em;
 }
 
 .extra-margin-top {
-  margin-top: 2em;
+  padding-top: 2em;
+}
+
+.extra-margin-bottom {
+  margin-bottom: 2em;
 }
 
 .accent {

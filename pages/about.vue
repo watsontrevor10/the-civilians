@@ -71,7 +71,7 @@ export default {
           title: "Morgan Davidson",
           subTitle: "Trumpet, Guitar, Banjo, Vocals, Recorder, Bagpipes, etc.",
           imgSrc:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_1000/v1630554628/Civilians/clark.wedding-2548_f24xnd.png",
+            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,q_auto:eco,f_auto,w_1000/v1630554628/Civilians/clark.wedding-2548_f24xnd.png",
           imgAlt: "Morgan Davidson playing trumpet",
           cardText:
             "Engineer by day, Swiss-army-knife multi-instrumentalist by night. Anything the song demands, Morgan plays, and does it well."
@@ -80,7 +80,7 @@ export default {
           title: "Tyler Putnam",
           subTitle: "Guitar, Vocals",
           imgSrc:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_1000/v1632179606/Civilians/clark.wedding-2506_msofzt.png",
+            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,q_auto:eco,f_auto,w_1000/f_auto/q_auto:good/v1632179606/Civilians/clark.wedding-2506_msofzt.png",
           imgAlt:
             "Tyler Putnam playing guitar and singing in what looks like a painful face",
           cardText:
@@ -90,7 +90,7 @@ export default {
           title: "Zach Putnam",
           subTitle: "Guitar, Vocals",
           imgSrc:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_1000/v1632179605/Civilians/clark.wedding-2541_bklmhy.png",
+            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,q_auto:eco,f_auto,w_1000/f_auto/q_auto:good/v1632179605/Civilians/clark.wedding-2541_bklmhy.png",
           imgAlt:
             "Zach Putnam playing guitar and singing in what looks like a painful face",
           cardText:
@@ -100,7 +100,7 @@ export default {
           title: "Neil Baxter",
           subTitle: "Drums, Percussion, Vocals",
           imgSrc:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_1000/v1630554637/Civilians/clark.wedding-2520_hpmbpm.png",
+            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,q_auto:eco,f_auto,w_1000/f_auto/q_auto:good/v1630554637/Civilians/clark.wedding-2520_hpmbpm.png",
           imgAlt:
             "Neil Baxter playing drums as if lost in a trance of groove and awesomeness",
           cardText:
@@ -110,7 +110,7 @@ export default {
           title: "Trevor Watson",
           subTitle: "Bass, Vocals",
           imgSrc:
-            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,w_1000/v1630554628/Civilians/clark.wedding-3171_cqazlh.png",
+            "https://res.cloudinary.com/dx4uolokd/image/upload/ar_16:9,c_fill,e_sharpen,q_auto:eco,f_auto,w_1000/f_auto/q_auto:good/v1630554628/Civilians/clark.wedding-3171_cqazlh.png",
           imgAlt:
             "Trevor Watson playing bass and singing in a very normal and bass-like manner",
           cardText:

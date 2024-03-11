@@ -21,7 +21,14 @@ export default {
           "The Civilians Band is a Utah cover band playing hits from every decade of rock 'n roll. Weddings, corporate events, parties, and other events."
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/civ-logo.png" }],
+    link: [
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href:
+          "https://res.cloudinary.com/dx4uolokd/image/upload/f_auto/q_auto/Civilians/civilians-star-logo.png"
+      }
+    ],
     // Script tags
     script: [
       // Fathom Analytics
