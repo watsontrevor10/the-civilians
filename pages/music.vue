@@ -26,13 +26,13 @@
           role="button"
           v-on:click="selectedVideo = video.src"
         >
-          <b-img
+          <b-img-lazy
             :src="video.thumbnail"
             fluid
             rounded
             :alt="video.meta"
             class="vid-thumb"
-          ></b-img>
+          ></b-img-lazy>
         </div>
       </b-col>
     </b-row>

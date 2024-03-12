@@ -1,11 +1,11 @@
 <template>
   <b-container fluid>
     <div class="extra-padding">
-      <b-img
+      <b-img-lazy
         src="https://res.cloudinary.com/dx4uolokd/image/upload/f_auto,q_auto/v1710188492/Civilians/the-civilians-banner_mykwyv.png"
         alt="The Civilians - Music of the people, by the people, for the people"
         fluid
-      ></b-img>
+      ></b-img-lazy>
     </div>
 
     <hr />
