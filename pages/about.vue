@@ -10,15 +10,15 @@
       <b-col>
         <p>
           The Civilians are, in a literal sense, weekend warriors. They each
-          serve as musicians in the U.S. Army. As Army musicians these five have
-          been performing together for over a decade, and have performed
-          extensively throughout the state and abroad supporting our troops and
-          local communities of Utah.
+          serve as musicians in the U.S. Army in addition to performing as The
+          Civilians. As Army musicians these five have been performing together
+          for over a decade, and have performed extensively throughout the state
+          and abroad supporting our troops and local communities of Utah.
         </p>
         <p>
           As The Civilians, they are well-versed in multiple genres; but focus
           heavily on popular, danceable tunes that appeal to a wide range of
-          audiences. They bring that decade of performing experience to the
+          audiences. They bring that decade of performance experience to the
           Civilian side to create amazing experiences for audiences, and for any
           event.
         </p>
@@ -56,6 +56,9 @@
           </b-card>
         </b-col>
       </div>
+    </b-row>
+    <b-row>
+      <Book-button />
     </b-row>
   </b-container>
 </template>

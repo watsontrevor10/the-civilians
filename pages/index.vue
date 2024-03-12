@@ -2,22 +2,19 @@
   <b-container fluid>
     <div class="extra-padding">
       <b-img
-        src="https://res.cloudinary.com/dx4uolokd/image/upload/f_auto/q_auto/Civilians/the-civilians-banner_mykwyv.png"
+        src="https://res.cloudinary.com/dx4uolokd/image/upload/f_auto,q_auto/v1710188492/Civilians/the-civilians-banner_mykwyv.png"
         alt="The Civilians - Music of the people, by the people, for the people"
         fluid
       ></b-img>
     </div>
 
     <hr />
-    <b-row style="justify-content: center;" class="extra-margin-top">
+    <b-row style="justify-content: center;">
       <b-card
         title="The Civilians Band"
         bg-variant="light"
         border-variant="secondary"
         sub-title="Rock/pop/country wedding and party band"
-        img-right
-        img-width="500"
-        img-src="https://res.cloudinary.com/dx4uolokd/image/upload/q_auto:eco/v1630554638/Civilians/clark.wedding-2477_ax3vjn.webp"
       >
         <hr />
         <b-card-text>
@@ -34,23 +31,26 @@
         >
       </b-card>
     </b-row>
+    <b-button variant="outline-secondary" class="centered">
+      <a href="/about">Meet The Band</a>
+    </b-button>
     <b-row class="centered extra-margin-top extra-margin-bottom">
-      <b-button variant="outline-secondary">
-        <a href="/about">Meet The Band</a>
-      </b-button>
+      <Carousel />
     </b-row>
     <hr />
   </b-container>
 </template>
 
 <script>
+import { Carousel } from "bootstrap";
+
 export default {
   head() {
     return {
       title: "The Civilians Band",
       meta: [
         {
-          hid: "The Civilians Home Page",
+          hid: "The Civilians Band Home Page",
           name: "The Civilians Home Page",
           content:
             "The Civilians Rock band, a patriotic cover band from Utah. Playing corporate events, weddings, parties and other events."

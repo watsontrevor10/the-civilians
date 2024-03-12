@@ -136,14 +136,6 @@
         <div>
           <h4>Corporate Events, weddings, birthdays, dances, and more</h4>
         </div>
-        <div>
-          <b-img-lazy
-            src="https://res.cloudinary.com/dx4uolokd/image/upload/f_auto/q_auto:eco,f_auto/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
-            fluid-grow
-            rounded
-            alt="The civilians rocking out at a wedding party"
-          ></b-img-lazy>
-        </div>
         <hr />
         <div>
           <p>
@@ -151,14 +143,23 @@
             Civilians specialize in playing many genres and making every event a
             party
           </p>
-          <p>
-            <strong>Johnny Cash</strong>, <strong>Taylor Swift</strong>,
-            <strong>Stevie Wonder</strong>, <strong>Nirvana</strong>,
-            <strong>The Beatles</strong>, <strong>Led Zeppelin</strong>, and
-            many more.
-          </p>
         </div>
       </b-col>
+    </b-row>
+    <b-row>
+      <b-card bg-variant="light" align="center">
+        <strong>Johnny Cash</strong>, <strong>Neil Diamond</strong>,
+        <strong>Stevie Wonder</strong>, <strong>Nirvana</strong>,
+        <strong>The Beatles</strong>, <strong>Van Morrison</strong>,
+        <strong>John Mayer</strong>, <strong>Billy Joel</strong>,
+        <strong>Bob Marley</strong>, <strong>James Brown</strong> and many more.
+        <b-img-lazy
+          src="https://res.cloudinary.com/dx4uolokd/image/upload/q_auto:eco,f_auto/v1630554638/Civilians/clark.wedding-2477_ax3vjn.jpg"
+          fluid-grow
+          alt="The civilians rocking out at a wedding party"
+          class="centered"
+        ></b-img-lazy>
+      </b-card>
     </b-row>
   </b-container>
 </template>

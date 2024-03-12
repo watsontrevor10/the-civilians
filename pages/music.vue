@@ -3,6 +3,9 @@
     <b-row class="centered">
       <h1 class="subtitle">Music</h1>
     </b-row>
+
+    <hr />
+
     <b-row class="video-container">
       <b-col>
         <b-embed
@@ -33,7 +36,7 @@
         </div>
       </b-col>
     </b-row>
-    <b-row>
+    <b-row class="extra-margin-top">
       <Book-button />
     </b-row>
   </b-container>
